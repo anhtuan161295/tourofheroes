@@ -1,10 +1,10 @@
-import { MyDreamAppPage } from './app.po';
+import { TourOfHeroesPage } from './app.po';
 
-describe('my-dream-app App', () => {
-  let page: MyDreamAppPage;
+describe('tourofheroes App', () => {
+  let page: TourOfHeroesPage;
 
   beforeEach(() => {
-    page = new MyDreamAppPage();
+    page = new TourOfHeroesPage();
   });
 
   it('should display welcome message', () => {
